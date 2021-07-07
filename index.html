@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Personal Portfolio Website Design</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .color {
+            color: darkturquoise;
+        }
+
+        .design {
+            color: rgb(255, 0, 98);
+        }
+    </style>
+</head>
+
+<body>
+    <section class="banner">
+        <header>
+            <a href="#" class="logo">Portfolio</a>
+            <div class="toggle"></div>
+        </header>
+        <img src="10.png" class="men" width="300px" height="300px">
+        <div class="content">
+            <div class="contentBx">
+                <h4>Hello,</h4>
+                <h2>I'm Mahiya M Tahniyat Mahi</h2>
+                <h3>Learning in WEB DEVELOPMENT and GRAPHIC DESIGN.</h3>
+                <p>I'm 12 years old read in class 7 (English Version) at Motijheel Ideal School and College.Alongside
+                    study,I am Learning in <span class="color">"Jhankar Mahbub" Web Development Course</span> and
+                    also
+                    learing in <span class="design">Professional Graphic Design in CREATIVE IT INSTITUTE</span>.In this
+                    way
+                    of
+                    development,I finished HTML,CSS & GitHub.I also want to learn UI-UX Design,3d animation and digital
+                    marketing.</p>
+                <a class="link" target="_blank" href="https://www.facebook.com/profile.php?id=100069117605684">HIRE
+                    ME</a>
+                <a class="link" target="_blank" href="https://www.facebook.com/profile.php?id=100069117605684">DOWNLOAD
+                    CV</a>
+            </div>
+        </div>
+        <ul class="sci">
+            <li><a href="#"><img src="49440.png" </a></li>
+            <li><a href="#"><img src="739186.png" </a></li>
+            <li><a href="#"><img src="1384017.png" </a></li>
+            <li><a href="#"><img src="2111491.png" </a></li>
+        </ul>
+        <ul class="menu">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Resume</a></li>
+            <li><a href="#">Contact</a></li>
+    </section>
+    <script>
+        const toggle = document.querySelector('.toggle');
+        const banner = document.querySelector('.banner');
+        toggle.onclick = function () {
+            toggle.classList.toggle('active');
+            banner.classList.toggle('active');
+        }
+    </script>
+</body>
+
+</html>
